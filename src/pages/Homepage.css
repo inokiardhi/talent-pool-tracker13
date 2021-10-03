@@ -1,0 +1,30 @@
+.divider {
+    /* border-bottom: 5px solid transparent; */
+    border-radius: 5px;
+    height: 2px;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.divider-p {
+    /* border-bottom: 5px solid transparent; */
+    border-radius: 5px;
+    height: 2px;
+    background-image: linear-gradient(to right, yellow,red);
+}
+
+.lineHeight {
+    margin-bottom: 0;
+}
+
+.lineHeight h3 {
+    color: gray;
+}
+
+.container-content {
+    min-height: 720px;
+}
+
+.fontSizeMe {
+    font-size: 4rem;
+    font-weight: 700;
+}

@@ -1,0 +1,18 @@
+.footerShadow {
+    /* box-shadow: 0px -5px 20px rgb(0, 0, 0, 0.4) ,0px -2px 200px rgba(255, 255, 255, 0.3); */
+}
+
+.footer-container h5 {
+    color: green;
+}
+
+.divider-f {
+    border-radius: 5px;
+    height: 2px;
+    background-color: green;
+}
+
+.footer-container-right p {
+    color: grey;
+    font-size: small;
+}
