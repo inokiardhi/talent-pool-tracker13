@@ -33,7 +33,7 @@ function Detailpage() {
                         <div className="v-divider mx-4"></div>
                         <h3 >{gameDetail.ratings_count}</h3>
                     </div>
-                    <div className="container-desc mt-2 d-flex">
+                    <div className="container-desc mt-2 d-flex flex-wrap">
                         <div className="me-5">
                             <h6>Release date :</h6>
                             <span>{gameDetail.released}</span>
