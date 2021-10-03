@@ -17,7 +17,7 @@ function Detailpage() {
      }, [dispatch]);
     return (
         <>
-            <div className="container-main" style={{backgroundImage:`url(${gameDetail.background_image})`}}>
+            <div className="container-main" style={{backgroundImage:`url(${gameDetail.background_image})`, width: '100%'}}>
                 <div className="gradient"></div>
                 <div className="container textColorize pt-5 position-relative">
                     <h1 className="pt-5">{gameDetail.name}</h1>
