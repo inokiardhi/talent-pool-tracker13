@@ -10,5 +10,10 @@
 
 .navbarTitle {
     font-weight: bold;
+    font-size: 20pt;
     color: green;
+}
+
+.navbarTitle:hover {
+    color: rgb(65, 197, 65);
 }

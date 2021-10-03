@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { Container, Navbar, Form, FormControl, Button } from 'react-bootstrap'
 import { useDispatch } from 'react-redux';
 import { getSearchList } from '../../redux/action/getSearch';
+import { Link } from 'react-router-dom';
 
 function NavbarMe() {
     const dispatch = useDispatch();
@@ -26,7 +27,7 @@ function NavbarMe() {
         <>
             <Navbar className="navbarShadow" expand="lg" style={{backgroundColor: '#191c19'}}>
                 <Container fluid className="mx-4">
-                    <h2 href="#" className="flex-grow-1 navbarTitle">Game App</h2>
+                    <Link to="/" className="flex-grow-1 navbarTitle text-decoration-none">Game App</Link>
                     
                     <Form className="d-flex">
                         <FormControl
