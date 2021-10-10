@@ -1,17 +1,21 @@
-export const GET_GAMELIST_BEGIN = "GET_GAMELIST_BEGIN";
-export const GET_GAMELIST_SUCCESS = "GET_GAMELIST_SUCCESS";
-export const GET_GAMELIST_FAIL = "GET_GAMELIST_FAIL";
+export const GET_TALENT_ = "GET_TALENT_";
+export const GET_PIC_ = "GET_PIC_";
+export const GET_COMPANY_ = "GET_COMPANY_";
+export const GET_TRACKER_ = "GET_TRACKER_";
 
-export const GET_GAMEDETAIL_BEGIN = "GET_GAMELIST_BEGIN";
-export const GET_GAMEDETAIL_SUCCESS = "GET_GAMEDETAIL_SUCCESS";
-export const GET_GAMEDETAIL_FAIL = "GET_GAMEDETAIL_FAIL";
+export const POST_TALENT_ = "POST_TALENT_";
+export const POST_PIC_ = "POST_PIC_";
+export const POST_COMPANY_ = "POST_COMPANY_";
+export const POST_TRACKER_ = "POST_TRACKER_";
 
-export const GET_BYGENRE_BEGIN = "GET_BYGENRE_BEGIN";
-export const GET_BYGENRE_SUCCESS = "GET_BYGENRE_SUCCESS";
-export const GET_BYGENRE_FAIL = "GET_BYGENRE_FAIL";
+export const DEL_TALENT_ = "DEL_TALENT_";
+export const DEL_PIC_ = "DEL_PIC_";
+export const DEL_COMPANY_ = "DEL_COMPANY_";
+export const DEL_TRACKER_ = "DEL_TRACKER_";
 
-export const GET_SEARCH_BEGIN = "GET_SEARCH_BEGIN";
-export const GET_SEARCH_SUCCESS = "GET_SEARCH_SUCCESS";
-export const GET_SEARCH_FAIL = "GET_SEARCH_FAIL";
+export const UPDATE_TALENT_ = "UPDATE_TALENT_";
+export const UPDATE_PIC_ = "UPDATE_PIC_";
+export const UPDATE_COMPANY_ = "UPDATE_COMPANY_";
+export const UPDATE_TRACKER_ = "UPDATE_TRACKER_";
 
 export const CLEAR = "CLEAR"

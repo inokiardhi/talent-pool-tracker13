@@ -3,8 +3,11 @@ import { useParams } from 'react-router';
 import { Switch, Route } from "react-router-dom";
 import FooterMe from '../components/footer/FooterMe';
 import NavbarMe from '../components/navbar/Navbar';
-import Detailpage from '../pages/Detailpage';
-import Homepage from '../pages/Homepage';
+import CompanyPage from '../pages/CompanyPage';
+import PicPage from '../pages/PicPage';
+import TalentPage from '../pages/TalentPage';
+import TrackerPage from '../pages/TrackerPage';
+
 
 function Router() {
     const {id} = useParams()
@@ -13,11 +16,18 @@ function Router() {
             <NavbarMe/>
             <Switch>
                 <Route exact path="/">
-                    <Homepage/>
+                    <TrackerPage/>
                 </Route>
-                <Route exact path="/detail/:id">
-                    <Detailpage/>
+                <Route exact path="/talent">
+                    <TalentPage/>
                 </Route>
+                <Route exact path="/pic">
+                    <PicPage/>
+                </Route>
+                <Route exact path="/companies">
+                    <CompanyPage/>
+                </Route>
+
 
             </Switch>
             <FooterMe/>
